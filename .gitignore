@@ -13,3 +13,4 @@ yarn-error.log*
 /.idea
 dist/bot.js
 pnpm-lock.yaml
+data.db
