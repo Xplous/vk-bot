@@ -8,6 +8,21 @@
    ```bash
    npm install
    ```
+2.0⚙️ Для работы с базой данных используется SQLite (пакет sqlite3).
+Если он не указан в package.json, выполните:
+
+```bash
+npm install sqlite3
+```
+2.1 Настройте базу данных (SQLite):
+
+Убедитесь, что у вас установлен сам SQLite (например, sudo apt install sqlite3 или через диспетчер пакетов вашей ОС).
+
+Создайте файл базы данных (он появится автоматически при первом подключении, но можно создать вручную):
+
+```bash
+sqlite3 data/database.sqlite ".exit"
+```
 2. Соберите TypeScript-код:
 ```bash
    npm run build
