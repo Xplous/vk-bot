@@ -7,6 +7,7 @@
 1. Установите зависимости:
    ```bash
    npm install
+   ```
 2. Соберите TypeScript-код:
 ```bash
    npm run build
