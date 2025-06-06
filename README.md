@@ -9,8 +9,8 @@
    npm install
 2. Соберите TypeScript-код:
 ```bash
-npm run build
+   npm run build
 ```
 3. Запустите бота:
 ```bash
-node dist/bot.js
+   node dist/bot.js
